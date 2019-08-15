@@ -33,6 +33,17 @@
         border-radius: 10px;
       }
     }
+
+    @media @mobile {
+      flex-direction: column;
+
+      .text-content{
+        width: 100%;
+      }
+      .img-content{
+        width: 100%;
+      }
+    }
   }
 
   .inverse-content {
@@ -47,6 +58,11 @@
     .img-content {
       padding-right: 1%;
       padding-left: 0;
+    }
+
+    @media @mobile{
+      display: flex;
+      flex-direction: column-reverse;
     }
   }
 
