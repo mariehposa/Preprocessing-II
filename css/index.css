@@ -285,3 +285,13 @@ img {
   font-size: 20px;
   text-align: center;
 }
+@media (max-width: 550px) {
+  .home .content-pick {
+    flex-direction: column;
+  }
+  .home .content-pick .destination {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+}
