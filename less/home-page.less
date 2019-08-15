@@ -1,6 +1,7 @@
 .home {
 
   header{
+    .sideSpace;
 
     div{
       margin-top:20px;
@@ -17,8 +18,6 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-
-   
     
     .text-content {
       width: 48%;
@@ -39,11 +38,14 @@
 
       .text-content{
         width: 100%;
+        margin-top: 30px;
       }
       .img-content{
         width: 100%;
       }
     }
+
+    .sideSpace;
   }
 
   .inverse-content {
@@ -75,8 +77,10 @@
     }
 
     @media @mobile {
-      width: 100%;
+      width: 90%;
+      margin-top: 30px;
     }
+
   }
 
   .content-pick {
@@ -93,5 +97,15 @@
         .buttonDesign(teal)
       }
     }
+
+    @media @mobile{
+      flex-direction: column;
+
+      .destination{
+        width: 80%;
+        margin: 0px auto 30px
+      }
+    }
+    .sideSpace;
   }
 }// home
