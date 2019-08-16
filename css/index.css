@@ -312,6 +312,16 @@ img {
   }
   .home .content-pick .destination {
     width: 80%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 550px) {
+  .home .content-pick {
+    flex-direction: column;
+  }
+  .home .content-pick .destination {
+    width: 80%;
     margin: 0px auto 30px;
   }
 }
